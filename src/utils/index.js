@@ -1,9 +1,11 @@
 const movieArr = [];
 
 class Movie {
-    constructor(title, actor = "Not specified") {
+    constructor(title, actor, genre, year) {
         this.title = title;
         this.actor = actor;
+        this.genre = genre;
+        this.year = year;
     }
 
     add() {
